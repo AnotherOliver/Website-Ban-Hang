@@ -1,0 +1,284 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+.container{
+	max-width:1000px;
+	margin:0 auto;
+} 
+.container > header{
+	background-image: url('images/ten_shop.webp');
+	background-size:100% 100%;
+	height:0px;
+	padding-bottom:25%;
+}
+.container > nav{
+	line-height:40px;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	font-variant: small-caps;
+}
+.container > article{
+	min-height:400px;
+	width:75%;
+	background-color: white;
+	float: left;
+}
+.container > aside{
+	min-height:400px;
+	width:25%;
+	background-color: 	#b9d7f7;
+	float: right;
+}
+.container > footer{
+	border-top:5px double #c6bcdd;
+	line-height:50px;
+	background-color: #f9f2c0;
+	text-align: center;
+	font-variant: small-caps;
+	clear: both;
+}
+.container > nav > a{
+	color: white;
+	text-decoration: none;
+	margin:0 10px;
+}
+.container > nav > a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+.vmenu{
+	 padding:0px;
+	 margin:5px;
+	 list-style:none;
+	 border-radius:3px;
+	 box-shadow:0 0 2px #ea989d;
+}
+.vmenu a{
+	 background: url('images/icon1.jpg') no-repeat 10px center;
+	 display: block;
+	 border-bottom: 1px dotted 	#ea989d;
+	 color: white;
+	 font-variant: small-caps;
+	 font-size: larger;
+	 text-decoration: none;
+	 padding: 8px 5px 8px 30px;
+}
+ .vmenu a:hover{
+	 background: url('images/icon2.png') no-repeat 10px center;
+	 border-bottom: 1px dotted white;
+	 background-color: 	#ea989d;
+	 color: white;
+	 font-weight: bold;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+#page{
+  margin: 10px auto;
+  max-width: 960px;
+  width: 100%;
+}
+.col-25{
+  width:25%;
+  float:left;
+}
+.prod{
+  border-radius:10px;
+  box-shadow:0 0 5px #bee8bb;
+  margin:5px;
+  padding:5px;
+  text-align:center;
+  position:relative;
+}
+.prod>.name{
+  font-variant:small-caps;
+  color:	black;
+}
+.prod>.image{
+  max-width:98%;
+  height:150px;
+  margin-bottom:10px;
+}
+.prod>.price{
+  position:absolute;
+  left:5px;
+  bottom:5px;
+  font-size:25px;
+  color:	black;
+}
+.prod>.icons{
+  position:absolute;
+  right:5px;
+  bottom:5px;
+  width:25px;
+}
+.prod>.new-icon{
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#page{
+	width: 960px;
+	margin: 0 auto;
+}
+.container{
+	position: relative;
+	background-image: url('images/cau3.jpg');
+	background-size: 100% 100%;
+	height: 280px;
+}
+header ul.menu li{
+	position: relative;
+	display: inline-block;
+	float: left;
+	float-size: 16px;
+	height: 45px;
+	font-weight: bolder;
+}
+header ul.menu li a{
+	position: relative;
+	display: inline-block;
+	float: left;
+	line-height: 45px;
+	padding: 0 8px;
+	color: #F2F2F2;
+	text-decoration: none;
+}
+header ul.menu li a:hover{
+	color: #FFF;
+}
+.clearfix {
+	visibility: visible;
+	clear: both;
+}
+.float-left{
+	 float: left;
+}
+.top-right{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-bottom-left-radius: 30px;
+	box-shadow: 0 0 15px #FFF;
+	padding-left: 10px;
+	background-color: 		#bee8bb;  
+}
+nav{
+	background: 		#bee8bb;
+
+}
+.menu>ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	border-radius:3px;
+	background-color:		#bee8bb;
+	text-align:center;
+}
+.menu>ul>li{
+	display:inline-block;
+	position:relative;
+}
+.menu>ul>li:hover>ul{
+	display:block;
+	z-index: 1;
+} 
+.menu>ul>li>a{
+	display:block;
+	text-decoration:none;
+ 	font-variant:small-caps;
+ 	font-size:larger;
+ 	color: white;
+ 	padding:0 10px;
+ 	line-height:40px;
+}
+.menu>ul>li>a:hover{
+ 	color:	#ea989d;
+ }
+.menu ul ul{
+	position:absolute;
+	display:none;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	border-radius:3px;
+	width:200px;
+	background-color:white;
+	box-shadow:0 0 1px gray;
+} 
+.menu ul ul a{
+	display:block;
+	line-height:30px;
+	color:		#bee8bb;
+	text-decoration:none;
+	font-variant:small-caps;
+	font-size:larger;
+	padding:0 10px;
+}
+.menu ul ul a:hover{
+	background-color:	#ea989d;
+	color:white;
+}
+.news-title{
+	color: blue;
+	font-weight: bolder;
+}
+.company-info{
+	position: absolute;
+	left: 15px;
+	bottom: 30px;	
+}
+.company-info h1 {
+	font-size: 45px;
+	color: #FFF;
+	font-weight: bolder;
+	padding-bottom: 10px;
+	text-shadow: 0 0 10px black;
+	border-bottom: 2px black solid;
+	font-variant: small-caps;
+	font-family: fantasy;
+}
+.company-info p{
+	text-align: justify;
+	font-size: 30px;
+	color: black;
+	font-weight: bolder;
+	padding-top: 5px;
+	text-shadow: 0 0 5px #000;
+}
+.flex-container{
+	display: flex;
+	align-content: stretch;
+	width: 555px;
+	line-height: 25px;
+	font-size: large;
+	font-size: 20px;
+}
+table{
+	border-collapse:collapse;
+	width:50%;
+}
+th,td{
+	border:3px solid red;
+	padding:10px;
+}
+td{
+	text-align:center;
+	font-weight: bold;
+}
+tr:nth-child(odd){
+	background-color:whitesmoke;
+}
+tr:nth-child(1){
+	background-color:yellow;
+	color:white;
+}
